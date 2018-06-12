@@ -6,10 +6,10 @@ public class ObjectCreaterCurve : MonoBehaviour {
     private GameObject createObject; // 生成するオブジェクト
 
     [SerializeField]
-    private int itemCount = 10; // 生成するオブジェクトの数
+    private int itemCount = 20; // 生成するオブジェクトの数
 
     [SerializeField]
-    private float length = 10f; // アイテムの広がる距離
+    private float length = 20f; // アイテムの広がる距離
 
     [SerializeField]
     private float expantion = 2f; // 高さ変動の拡大値
